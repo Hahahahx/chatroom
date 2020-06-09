@@ -1,0 +1,65 @@
+//三个主页的排版
+.layout{
+    height:100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse; 
+    min-height:500px;
+}
+
+//底部导航栏
+.nav-bottom{
+    width: 100%;
+    height:55px;
+    background-color: rgb(235, 235, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bottom div{
+    transition: all 0.5s linear;
+}
+
+.nav-bottom div:active{
+    transform: rotate(720deg) scale(0.5);
+}
+
+
+
+//内容
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+//顶部导航栏
+.nav-top{
+    max-height: 60px;
+    min-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 8%;
+    background-image: linear-gradient(45deg,rgba(150,150,250,.5),rgba(91, 91, 197, 0.4));
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+//顶部导航栏标题
+.top-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+//顶部导航栏icon按钮
+.top-icon{
+    color: rgba(18, 75, 161, 0.9);
+    font-size: 20px;
+    transition: all .5s linear;
+    display: flex;
+    justify-content: flex-end;
+}

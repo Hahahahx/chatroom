@@ -1,0 +1,62 @@
+//好友列表布局
+.user-list-layout{
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+//好友列表内容
+.user-list-content{
+    width: 100vw;
+}
+
+.user-list-newfriend{
+    color: black;
+    width: 100%;
+    background:rgb(225, 225, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+//聊天模式布局 好友、群聊   管理按钮
+.user-list-select-layout{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+}
+
+
+//每个模式单项操作 管理好友 管理群组
+.user-list-select-operate{
+    white-space: 5px;
+    font-weight:800;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+//聊天模式选项 1、好友 2、群聊
+.option-item{
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+}
+
+//选卡激活
+.option-item-active{
+    color: rgba(50, 50, 100,.8) ;
+    border-bottom:2px solid rgb(100, 100, 190) ;
+}
+
+//好友分组列表
+.user-list-group{
+    padding-right: 10px;
+    overflow-y: scroll;
+    height: 100%;
+    width:103%;
+}

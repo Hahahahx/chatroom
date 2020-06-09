@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+
+    .info {
+        height: 100%;
+        align-items: center;
+        position: relative;
+        border: 1px solid rgb(118, 188, 255);;
+        background-color: rgb(118, 218, 255);
+        overflow: hidden;
+    }
+    
+    .info::before,
+    .info::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        min-width: 300vw;
+        min-height: 300vw;
+        background: #fff;
+        animation: roateOne 10s linear infinite;
+    }
+    
+    .info::before {
+        bottom: 15vh;
+        border-radius: 45%;
+    }
+    
+    .info::after {
+        bottom: 12vh;
+        opacity: 0.5;
+        border-radius: 47%;
+    }
+    
+    @keyframes roateOne {
+        0% {
+            transform: translate(-50%, 0) rotateZ(0deg);
+        }
+    
+        50% {
+            transform: translate(-50%, -2%) rotateZ(180deg);
+        }
+    
+        100% {
+            transform: translate(-50%, 0%) rotateZ(360deg);
+        }
+    }
+
+   
+    
+}
+

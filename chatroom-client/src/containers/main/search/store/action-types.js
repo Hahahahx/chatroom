@@ -1,0 +1,4 @@
+
+
+export const ADD_SEARCH_LIST= "ADD_SEARCH_LIST";
+export const SUB_SEARCH_LIST= "SUB_SEARCH_LIST";

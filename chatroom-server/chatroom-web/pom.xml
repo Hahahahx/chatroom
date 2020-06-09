@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ux</groupId>
+        <artifactId>chatroom-server</artifactId>
+        <version> 1.0-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+
+    <groupId>com.ux</groupId>
+    <artifactId>chatroom-web</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>chatroom-web</name>
+    <description>Demo project for Spring Boot</description>
+
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.corundumstudio.socketio</groupId>
+            <artifactId>netty-socketio</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ux</groupId>
+            <artifactId>chatroom-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--阿里巴巴短信验证api-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <!--阿里巴巴map转json-->
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.41</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

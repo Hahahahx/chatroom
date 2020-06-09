@@ -1,0 +1,131 @@
+//个人信息布局
+.me-layout{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+//个人信息顶部模块
+.me-header{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.select-user-background{
+}
+
+//个人信息顶部设置按钮
+.me-header-setting{
+    position: absolute;
+    right:15px;
+    top: 15px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+}
+
+//顶部个人背景图片
+.me-header-user-background{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+    display:flex;
+	align-items:flex-start; 
+	justify-content:center;
+
+    //图片自动响应边框大小
+    img{
+        height:auto;
+        width:100%;
+    }
+}
+
+//顶部用户名字
+.me-header-user-name{
+    position: absolute;
+    left:120px;
+    bottom: 5px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+}
+
+//顶部用户描述
+.me-header-user-description{
+    position: absolute;
+    left:120px;
+    bottom: -25px;
+    font-size: 12px;
+}
+
+//用户头像
+.me-header-user-avatar{
+    position: absolute;
+    bottom: -40px;
+    left:30px;
+    .user-avatar{
+        border:2px solid white;
+    }
+}
+
+//用户性别
+.me-user-gender{
+    padding-right: 10px;
+    font-size: 15px;
+}
+//男
+.user-man{
+    color: rgba(100, 100, 250, 0.9);
+}
+//女
+.user-woman{
+    color: rgba(250, 100, 200, 0.9);
+}
+
+//个人信息内容
+.me-content{ 
+    padding-left:20px;
+    padding-right:20px;
+}
+
+//内容模块
+.me-content-module{
+    width: 100%;
+    padding:10px;
+}
+
+//首部图标
+.module-first-icon{
+    float:left;
+    margin-right: 20px;
+}
+//尾部指引图标
+.module-last-icon{
+    float:right;
+
+}
+
+//用户最后发表图片
+.user-last-album{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content:flex-start;
+
+    div{
+        margin-right: 5px;
+        width: 60px;
+        height:60px;
+        background-color: rgba(0, 0, 0, .1);
+        overflow: hidden;
+        display:flex;
+        align-items:center; 
+        justify-content:center;
+    
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+}

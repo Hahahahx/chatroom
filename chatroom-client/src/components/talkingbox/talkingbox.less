@@ -1,0 +1,106 @@
+.talkingbox-time{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 9px;
+    color: rgba(150, 150, 255, 1);
+}
+
+.talkingbox-layout-right{
+    margin:10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.talkingbox-layout-left{
+    margin:10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.talkingbox-frame{
+	position:relative;
+}
+
+.talkingbox-name{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(50, 50, 150, 0.7);
+}
+
+
+.talkingbox-name-message-right{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+    align-items: flex-end;
+}
+
+.talkingbox-name-message-left{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+    align-items: flex-start;
+}
+
+
+.talkingbox-box{
+    min-width: 35px;
+    min-height: 35px;
+    width: fit-content;
+    height: fit-content;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding:8px;
+	border-radius: 5px; 
+    position: relative;
+    margin-top:2px;
+	margin-left:10px;
+	margin-right:10px;
+    box-shadow:0px 5px 5px rgba(0, 0, 50, .2);
+    background: rgba(210,210,250,1);
+
+}
+.talkingbox-box img{
+    max-width: 200px;
+    max-height:200px;
+
+}
+.talkingbox-box::before{
+			content: '';
+			width: 0;
+			height: 0;
+			border:4px solid;
+			position: absolute;
+			top:8px;
+			transform: rotate(45deg);
+			box-shadow:0px 0px 2px rgba(0, 0, 50, .2);
+        }
+.talkingbox-box::after{
+        content: '';
+        left:0;
+        top:0;
+        position: absolute;
+        height:100%;
+        width:100%;
+        border-radius: 5px;
+        border:8px solid rgba(210,210,250,1);
+}
+.fright{
+    float: right;
+}
+.fleft{
+    float: left;
+}
+.left::before{
+    left:-4px;
+    border-color: transparent transparent rgba(210,210,250,1) rgba(210,210,250,1);
+}
+
+.right::before{
+    right:-4px;
+    border-color: rgba(210,210,250,1) rgba(210,210,250,1) transparent transparent;
+}

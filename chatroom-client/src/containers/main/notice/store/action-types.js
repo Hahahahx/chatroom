@@ -1,0 +1,7 @@
+
+
+export const INITIAL_NOTICE  = "INITIAL_NOTICE";
+
+export const DELETE_NOTICE = "DELETE_NOTICE";
+
+export const EMPTY_NOTICE = "EMPTY_NOTICE";

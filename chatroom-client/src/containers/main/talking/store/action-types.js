@@ -1,0 +1,13 @@
+
+
+export const INITIAL_TALKINGLIST = "INITIAL_TALKINGLIST";
+
+export const RECEIVE_NEWMESSAGE = "RECEIVE_NEWMESSAGE";
+
+export const ADD_TALKINGLIST = "ADD_TALKINGLIST";
+
+export const SET_READ = "SET_READ";
+
+export const SET_READ_EMPTY = "SET_READ_EMPTY";
+
+export const EXPORT_MSG = "EXPORT_MSG";

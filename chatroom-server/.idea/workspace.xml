@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20ef1a18-fd49-4d4f-a876-ecfa2892d312" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="chatroom" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QV3qyJDHKGnB41EliNnhN7E8C8" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\毕业设计\chatroom-server\chatroom-web\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ux.mapper.mapper" />
+      <recent name="com.ux.mapper.entity" />
+      <recent name="com.ux.mapper.entity.DTO" />
+      <recent name="com.ux.service.DTO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\毕业设计\chatroom-server\chatroom-web\src\main\java\com\ux\interceptor" />
+      <recent name="E:\毕业设计\chatroom-server\chatroom-web\src\main\resources\static" />
+      <recent name="E:\毕业设计\chatroom-server\chatroom-web\src\main\java\com\ux\config" />
+      <recent name="C:\Users\UXX\Desktop\chatroom\chatroom-web\src\main\java\com\ux\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChatroomWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chatroom-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.ChatroomWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatroomWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chatroom-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.ChatroomWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20ef1a18-fd49-4d4f-a876-ecfa2892d312" name="Default Changelist" comment="" />
+      <created>1567842130554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567842130554</updated>
+      <workItem from="1567842132351" duration="11335000" />
+      <workItem from="1567903402497" duration="69547000" />
+      <workItem from="1568215063772" duration="91000" />
+      <workItem from="1568215455067" duration="158000" />
+      <workItem from="1568215638414" duration="540000" />
+      <workItem from="1568216205317" duration="209000" />
+      <workItem from="1568216441107" duration="112000" />
+      <workItem from="1568216578086" duration="443000" />
+      <workItem from="1568217052595" duration="288000" />
+      <workItem from="1568217367622" duration="474000" />
+      <workItem from="1568217868415" duration="252000" />
+      <workItem from="1568218146442" duration="465000" />
+      <workItem from="1568218638753" duration="1059000" />
+      <workItem from="1568219987939" duration="53000" />
+      <workItem from="1568259266355" duration="11621000" />
+      <workItem from="1568337493327" duration="71591000" />
+      <workItem from="1569544925388" duration="2724000" />
+      <workItem from="1569761111573" duration="337000" />
+      <workItem from="1570787790481" duration="6811000" />
+      <workItem from="1570880262772" duration="5065000" />
+      <workItem from="1571552603534" duration="37153000" />
+      <workItem from="1572333460799" duration="293000" />
+      <workItem from="1572333924270" duration="110898000" />
+      <workItem from="1573176687675" duration="1853000" />
+      <workItem from="1573302947875" duration="27289000" />
+      <workItem from="1573717736919" duration="13058000" />
+      <workItem from="1574014860409" duration="25841000" />
+      <workItem from="1574225525795" duration="8883000" />
+      <workItem from="1574266512185" duration="9467000" />
+      <workItem from="1574309558938" duration="16185000" />
+      <workItem from="1574398375907" duration="10184000" />
+      <workItem from="1574484076981" duration="23360000" />
+      <workItem from="1574660338776" duration="28155000" />
+      <workItem from="1574781007124" duration="38150000" />
+      <workItem from="1574988539851" duration="11021000" />
+      <workItem from="1575162502691" duration="4078000" />
+      <workItem from="1575166808270" duration="44054000" />
+      <workItem from="1575418418158" duration="8053000" />
+      <workItem from="1576054503320" duration="4712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

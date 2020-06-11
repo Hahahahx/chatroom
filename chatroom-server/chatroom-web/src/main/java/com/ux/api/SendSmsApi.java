@@ -19,7 +19,7 @@ import com.aliyuncs.profile.DefaultProfile;
 public class SendSmsApi {
 
     public static String sendsms(String phone, String code) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4Fi5pL75tf3mVFv2GjeF", "1brvqjUYOqzZFkaVsIibs7vSm46U5C");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "/*参数*/", "/*参数*/");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
